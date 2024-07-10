@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div class="button-container">
+            <button id="toggle-form" onclick="toggleForm()">Go to Register</button>
+        </div>
+        <div id="login">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <div class="button-container">
+                <button onclick="login()">Login</button>
+            </div>
+        </div>
+        <div id="register" style="display: none;">
+            <h2>Register</h2>
+            <input type="text" id="reg-username" placeholder="Username">
+            <input type="password" id="reg-password" placeholder="Password">
+            <input type="email" id="reg-email" placeholder="Email">
+            <div class="button-container">
+                <button onclick="register()">Register</button>
+            </div>
+        </div>
+        <div id="chat" style="display: none;">
+            <h2>Chat Application</h2>
+            <div id="messages"></div>
+            <input type="text" id="message" placeholder="Type a message">
+            <div class="button-container">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+            <div class="button-container">
+                <button id="logout" onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #413f3f81;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #290a467c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+button {
+    width: 10%;
+    padding: 10px;
+    background-color: #2c3e52;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #141c25;
+}
+
+
+#messages {
+    height: 60vh;
+    padding: 10px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    background-color: #382b2b2d;
+    border-radius: 4px;
+}
+
+
+#messages::-webkit-scrollbar {
+    display: none;
+}
+
+#messages {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+}
+
+.message.sent {
+    background-color: #c1f0c1;
+    align-items: flex-end;
+}
+
+.message.received {
+    background-color: #f1f0f0;
+    align-items: flex-start;
+}
+
+.message-content {
+    margin-top: 5px;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.timestamp {
+    color: #888;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#message {
+    width: calc(100% - 60px);
+}
+
+#register {
+    margin-top: 20px;
+}
+
+#register>h2{
+    color: white;
+}
+
+#login {
+    display: block;
+}
+
+#login>h2{
+    color: white;
+}
+
+#chat {
+    display: none;
+}
+
+#chat>h2{
+    color: white;
+}
+
+#logout {
+    display: none;
+    margin-top: 10px;
+}
