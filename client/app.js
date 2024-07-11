@@ -111,6 +111,9 @@ function displayMessage(message) {
     imgElement.src = './picture.jpeg';
     profileElement.appendChild(imgElement);
 
+    const activeElement = document.createElement('span');
+    activeElement.classList.add('active');
+
     const usernameElement = document.createElement('span');
     usernameElement.classList.add('username');
     usernameElement.textContent = message.username;
@@ -121,7 +124,9 @@ function displayMessage(message) {
 
     headerElement.appendChild(profileElement);
     headerElement.appendChild(usernameElement);
+    headerElement.appendChild(activeElement);
     headerElement.appendChild(timestampElement);
+
 
     const contentElement = document.createElement('div');
     contentElement.classList.add('message-content');
