@@ -105,6 +105,12 @@ function displayMessage(message) {
     const headerElement = document.createElement('div');
     headerElement.classList.add('message-header');
 
+    const profileElement = document.createElement('span');
+    profileElement.classList.add('profile');
+    const imgElement = document.createElement('img');
+    imgElement.src = './picture.jpeg';
+    profileElement.appendChild(imgElement);
+
     const usernameElement = document.createElement('span');
     usernameElement.classList.add('username');
     usernameElement.textContent = message.username;
@@ -113,6 +119,7 @@ function displayMessage(message) {
     timestampElement.classList.add('timestamp');
     timestampElement.textContent = message.timestamp;
 
+    headerElement.appendChild(profileElement);
     headerElement.appendChild(usernameElement);
     headerElement.appendChild(timestampElement);
 
@@ -124,7 +131,6 @@ function displayMessage(message) {
     messageElement.appendChild(contentElement);
     messages.appendChild(messageElement);
 
-    // Scroll to the bottom
     messages.scrollTop = messages.scrollHeight;
 }
 

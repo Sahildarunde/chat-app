@@ -8,10 +8,9 @@
 </head>
 <body>
     <div id="app">
-        <div class="button-container">
-            <button id="toggle-form" onclick="toggleForm()">Go to Register</button>
-        </div>
+        
         <div id="login">
+            <h2>Chat Application</h2>
             <h2>Login</h2>
             <input type="text" id="username" placeholder="Username">
             <input type="password" id="password" placeholder="Password">
@@ -20,6 +19,7 @@
             </div>
         </div>
         <div id="register" style="display: none;">
+            <h2>Chat Application</h2>
             <h2>Register</h2>
             <input type="text" id="reg-username" placeholder="Username">
             <input type="password" id="reg-password" placeholder="Password">
@@ -28,6 +28,11 @@
                 <button onclick="register()">Register</button>
             </div>
         </div>
+
+        <div class="button-container">
+            <button id="toggle-form" onclick="toggleForm()">Go to Register</button>
+        </div>
+
         <div id="chat" style="display: none;">
             <h2>Chat Application</h2>
             <div id="messages"></div>
@@ -36,7 +41,7 @@
                 <button onclick="sendMessage()">Send</button>
             </div>
             <div class="button-container">
-                <button id="logout" onclick="logout()">Logout</button>
+                <button id="logout" style="background-color: rgb(247, 33, 33);" onclick="logout()">Logout</button>
             </div>
         </div>
     </div>
