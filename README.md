@@ -113,7 +113,7 @@ http://localhost:3000/login
 * Open the chat application and start messaging in real-time.
 
 
-### Screenshots
+## Screenshots
 
 #### Register User
 
