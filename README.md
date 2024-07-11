@@ -52,7 +52,7 @@ npm install -g http-server
 
 * To run the client side code
 ```bash
-cd start
+cd client
 npm start
 
 OR
