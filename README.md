@@ -111,3 +111,9 @@ http://localhost:3000/login
 * Register a new user.
 * Log in with the registered credentials.
 * Open the chat application and start messaging in real-time.
+
+
+### Screenshots
+
+
+![Registering](./client/images/ss1.png)

@@ -108,7 +108,7 @@ function displayMessage(message) {
     const profileElement = document.createElement('span');
     profileElement.classList.add('profile');
     const imgElement = document.createElement('img');
-    imgElement.src = './picture.jpeg';
+    imgElement.src = './images/picture.jpeg';
     profileElement.appendChild(imgElement);
 
     const activeElement = document.createElement('span');
