@@ -115,5 +115,15 @@ http://localhost:3000/login
 
 ### Screenshots
 
+#### Register User
 
 ![Registering](./client/images/ss1.png)
+
+
+#### Login User
+
+![Login](./client/images/ss2.png)
+
+#### Chat With Friends
+
+![Chat](./client/images/ss3.png)
