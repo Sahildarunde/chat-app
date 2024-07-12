@@ -117,12 +117,12 @@ http://localhost:3000/login
 
 #### Register User
 
-![Registering](./client/images/ss1.png)
+![Registering](./client/images/ss2.png)
 
 
 #### Login User
 
-![Login](./client/images/ss2.png)
+![Login](./client/images/ss1.png)
 
 #### Chat With Friends
 
