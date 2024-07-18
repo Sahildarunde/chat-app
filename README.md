@@ -57,7 +57,7 @@ npm start
 
 OR
 
-npx live server
+
 ```
 
 * To run server side code
